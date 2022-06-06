@@ -5,103 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/a6cb2433bf.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <title>Amazon Book Store</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        
-    <div class="header">
-     <div class="left-icon">
-        <div class="article-container">
-        <article></article>
-         <article></article>
-         <article></article>
-         </div>
-       
-         
-     </div>
-      <div class="left-logo">
-         <i class="fa fa-amazon left-color">amazon</i>
-      </div>
-      <div class="search-box">
-       <div class="topnav">
-      <div class="search-container">
-        <form action="#">
-         <a type="submit" href="#">All</a>
-          <input type="text" placeholder="Search book.." name="search">
-          <button type="submit"><i class="fa fa-search " ></i></button>
-        </form>
-      </div>
-    </div>
-        </div>
-      <div class="box1">
-          <a class="fa fa-registered" href="register.html" style="text-decoration: none; color: white">Register</a>
-        </div>
-      <div class="box2">
-          <a style="text-decoration: none; color: white" href="#" class="fa fa-address-card">login</a>
-        </div>
-      
-       <div class="box3">
-          <a href="#" style="text-decoration: none; color: white" class="fa fa-shopping-cart">Shopping Cart</a>
-        </div>
-      
-    </div>
-    <div class="navbar">
-       
-      <i  class="fa fa-location" >Deliver to India</i>
-      <a href="#">Home</a>
-      <a href="#">Books Cataglog</a>
-      <a href="#">Payment By Credit Card</a>
-      <a href="#">Order Confirmation</a>
-      <a href="#">Book Information</a>
-       <a href="#">User Profile</a>
-    </div>
-    
-    
-    <div id="slider1">
-    <figure>
-    <img src="img/slider/2.jpg" alt>
-     
-    <img src="img/slider/3 (2).png" alt>
-    
-    <img src="img/slider/4 (2).png" alt>
-        
-    <img src="img/slider/1.jpg" alt>
-        
-    <img src="img/slider/6.jpg" alt>
-    
-    </figure>
-    </div>    
-    
-    <div class="main-row">
-        <section class="row-1-box1">
-         <h1>Shop by Category</h1>
-            <div class="child-container">
-               <div class="child-box1">
-                    <img src="img/Books/catagery Books/prime.jpg" >
-                 </div>
-                <div class="child-box2">
-                    <img  src="img/Books/catagery Books/girls.jpg"  alt="girls" >
-                 </div>
+    <header>
+        <div class="container1">
+            <div class="logo">
+                <img src="images\amazon.png"  class="img1">
             </div>
-            <div class="child-container">
-               <div class="child-box1">
-                  <img src="img/Books/catagery Books/sleeping.jpg"  alt="sleeping" >
-                     </div>
-                <div class="child-box2">
-                   <img src="img/Books/catagery Books/revie.jpg" alt="review" >
-                         </div>
-                          </div>
-            <div class="child-container">
-             <a  role="button" class="shop-now-btn" href="#">Shope Now</a>
+            <div class="location">
+                <p>Deliver to</p>
+                <div class="location_icon" >
+                <i class="fa-solid fa-location-dot"></i>
+                <p>India</p>
+                </div>
             </div>
-           
-        
+            <div class="searchbar">
+                <select name="Categories" id="select_category" >
+                    <option value="All" class="all">All</option>
+                    <option value="All Categories">All Categories</option>
+                    <option value="Amazon Devices">Amazon Devices</option>
+                    <option value="Amazon Fresh">Amazon Fresh</option>
+                    <option value="Amazon Fashion">Amazon Fashion</option>
+                    <option value="Pharmacy">Pharmacy</option>
+                    <option value="Appliances">Appliances</option>
+                    <option value="Apps & Games">Apps & Games</option>
+                    <option value="Beauty">Beauty</option>
+                    <option value="Books">Books</option>
+                    <option value="Clothing & Accessories">Clothing & Accessories</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Furniture">Furniture</option>
+                </select>
+                <input type="search" placeholder="Search" class="search_bar">
+                <button<i class="fa-solid fa-magnifying-glass search_icon"></i></button>
+            </div>
+            <div class="right">
+                <div class="signin">
+                    <p>Hello, Sign in</p>
+                    <select name="" id="">
+                        <option value="Account & Lists">Account & Lists</option>
+                        <option value="Your Account">Your Account</option>
+                        <option value="Your Wishlist">Your Wishlist</option>
+                        <option value="Your Orderst">Your Orderst</option>
+                    </select>
+                </div>
+                <div class="order">
+                    <P>Return</P>
+                    <p>& Orders</p>
+                </div>
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p>Cart</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="nav-list">
+        <nav class="nav_items">
+            <a href="#"> <i class="fa-solid fa-bars"></i>All</a>
+            <a href="#">Today's Deals</a>
+            <a href="#">Customer Service</a>
+            <a href="#">Registry</a>
+            <a href="#">Gift Cards</a>
+            <a href="#">Sell</a>
+        </nav>
+        <div class="offer">
+            <a href="#">Shop Father's Day Gifts</a>
+        </div>
+    </div>
+    <main>
+        <div class="Headline">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Cupiditate dignissimos vitae eius minima blanditiis sequi.</p>
+            <a href="#"> Click here to go to amazon.in</a>
+        </div>
+    </main>
+
+</body>
+</html>

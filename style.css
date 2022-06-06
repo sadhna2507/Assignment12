@@ -1,117 +1,68 @@
-/* padding: 10px 30px; */
-* {
-  box-sizing: border-box;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-
-body {
-  font-family: Arial;
-  margin: 0;
-  background: #eaeded;
-}
-
-
-.header {
-  padding-top: 15px;
-  padding-bottom: 10px;
-  padding-left: 20px;
- padding-right: 20px;
-  
-  text-align: center;
-  background:#131921;
-  color: white;
-  display:flex;
-  flex-wrap: wrap;
-}
-.left-icon{
-    flex: 10%;
-   color:#ff9900; 
-}
-    
-.Book{
-    color:#ff9900;
-    margin-top: -6px;
-
-}
-.left-logo{
-    flex: 10%;
-    font-size:24px;
-    margin-left: -100px;
+header{
+    background-color: black;
+    color: white;
     
 }
-
-.search-box{
-    flex: 50%;
-    margin-top: -6px;
-}
-.box1{
-    flex: 10%;
-    font-size: 20px;
-}
-.box2{
-    flex: 10%;
-    font-size: 20px;
-}
-.box3{
-    flex: 10%;
-    font-size: 20px;
-    margin-right: -12px;
-}
-.article-container{
-    width: 40px;
-    height: auto;
-    border: 1px solid silver;
-    margin-left: -20px;
-}
-article{
-  width: 35px;
-  height: 4px;
-  background-color:white;
-  margin: 6px 0;
-
-}
-.navbar {
-  display: flex;
-  background-color:#232f3e;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  color: white;
-  padding: 7px 30px;
-  text-decoration: none;
-  text-align: center;
-  
-}
-.navbar i{
-  color: white;
-  padding: 14px 20px;
-  text-decoration: none;
-  text-align: center;
-  margin-right: 400px;
-  
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color:#232f3e;
-  color:white;
-  
-  border: 1px #DADADA solid;
-}
-
-.tab-next-nav {
-  padding: 5px;
-  text-align:left;
-  background:#d8f7eb;
-  color:black;
-  width: 100%;
-}
-.container{
+.container1{
     display: flex;
-    margin: 5px;
-    margin-top: -60px;
-}
+    justify-content: space-between;
+    /* background-color: blue; */
+    width: 1530px;
+    padding: 20px 40px;
 
-/*slider------*/
-/*  */
+   
+}
+.img1{
+    height: 50px;
+}
+.location_icon{
+    display: flex;
+}
+.search_icon{
+   background-color: orange;
+   /* border: 5px solid orange; */
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    /* background-color: brown; */
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(23, 23, 63); 
+    color: white;
+    padding: 20px 40px;
+}
+.nav_items{
+    /* word-spacing: 20px; */
+    justify-content: space-between;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.Headline{
+    height: 470px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/WLA/unrec/D39822856_WLA_BAU_GW-Unrec-heroes_DesktopTallHero_3000x1200_p._CB623159886_.jpg");
+    background-size: cover;
+    /* flex-direction: column;
+    justify-content: end; */
+    display: grid;
+    grid-auto-flow: column;
+    justify-content:center ;
+    align-items:end;
+}
+.Headline>p{
+    background-color: grey;
+}
+.Headline>a{
+    background-color: grey;
+}
